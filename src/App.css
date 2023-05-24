@@ -1,38 +1,68 @@
+html {
+  background: url(/public/images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 20px;
+  color: #800180;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
+}
+
+header {
+  padding: 30px 5px;
+}
+
+.live-letter-container {
+  max-width: 80vw;
+  font-size: 28px;
+}
+
+/* Swiper */
+.swiper {
+  width: 400px;
+  height: 570px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.swiper-slide img {
+  height: 100%;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.song-container {
+  text-align: center;
+  padding: 0 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper {
+    width: 240px;
+    height: 320px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .live-letter-container,
+  .song-container {
+    font-size: 20px;
   }
 }
