@@ -44,6 +44,24 @@ export function ImageSlider() {
         <SwiperSlide>
           <img src="images/photos/9.jpg" alt='9'/>
         </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/photos/10.jpg" alt='10'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/photos/11.jpg" alt='11'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/photos/12.jpg" alt='12'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/photos/13.jpg" alt='13'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/photos/14.jpg" alt='14'/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/photos/15.jpg" alt='15'/>
+        </SwiperSlide>
       </Swiper>
     </>
   )
